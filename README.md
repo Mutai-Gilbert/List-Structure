@@ -71,7 +71,7 @@
 > <img align="center" src="project_demo.PNG" alt="logo" width="100%"  height="auto" />
   <br/>
 
-- [Live Demo Link](https://github.com/Mutai-Gilbert/To-do-List.git)
+- [Live Demo Link](https://github.com/Mutai-Gilbert/List-Structure.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +93,7 @@ Clone this repository or download the Zip folder:
 >Clone this repository to your desired folder: cd [folder] to navigate and run the below comand to clone the project
 
 ```sh
-git clone https://github.com/Mutai-Gilbert/To-do-List.git
+git clone https://github.com/Mutai-Gilbert/List-Structure.git
 ```
 
 
