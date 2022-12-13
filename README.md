@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="murple_logo.png" alt="logo" width="100"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -70,7 +70,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > ## Our project demo picture
-> <img align="center" src="project_demo.PNG" alt="logo" width="100%"  height="auto" />
+> <img align="center" src="Project.png" alt="logo" width="100%"  height="auto" />
   <br/>
 
 - [Live Demo Link](https://github.com/Mutai-Gilbert/List-Structure.git)

@@ -32,8 +32,10 @@ class todos {
     const todoli = document.createElement('li');
     todoli.innerHTML = `
     <li class="listItems">
+    <div class="description">
                 <input type="checkbox" name="select" id="" class="check" />
-                <p class="title">${item.description}</p>
+                <p >${item.description}</p>
+    </div>
                 <i id="moreicon" class="fa-solid fa-ellipsis-vertical"></i>
               </li>
     `;

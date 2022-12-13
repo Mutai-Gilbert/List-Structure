@@ -47,9 +47,15 @@ h3 {
   width: 100vw;
 }
 
+.description {
+    display: flex;
+    align-items: center;
+    width: 70vw;
+}
+
 list li p {
   display: flex;
-  justify-content: flex-start;
+  justify-content: left;
   width: 87%;
 }
 
