@@ -13,7 +13,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Todo LIst ](#-todo-list-)
+- [📖To Do list: list structure](#to-do-list-list-structure)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -31,7 +31,9 @@
   - [📝 License ](#-license-)
 
 
-# 📖 Todo LIst <a name="about-project"></a>
+# 📖To Do list: list structure
+
+ <a name="about-project"></a>
 
 > This is A simple but effective and responsive (mobile first) Microverse exercize project.
 >
