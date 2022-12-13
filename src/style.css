@@ -48,9 +48,9 @@ h3 {
 }
 
 .description {
-    display: flex;
-    align-items: center;
-    width: 70vw;
+  display: flex;
+  align-items: center;
+  width: 70vw;
 }
 
 list li p {
