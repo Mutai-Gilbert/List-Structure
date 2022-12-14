@@ -2,28 +2,7 @@ import './style.css';
 
 class todos {
   static displayToDo() {
-    const todo = [
-      {
-        description: 'Read a book',
-        completed: false,
-        index: 0,
-      },
-      {
-        description: 'Read the bible',
-        completed: false,
-        index: 1,
-      },
-      {
-        description: 'Write my daily plan',
-        completed: false,
-        index: 2,
-      },
-      {
-        description: 'Attend Microverse Classes',
-        completed: false,
-        index: 3,
-      },
-    ];
+    const todo = [];
     todo.forEach((item) => todos.addTodo(item));
   }
 
