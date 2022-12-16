@@ -15,21 +15,19 @@
 <body>
     <main class="todo-form">
         <div class="title">
-        <h3>Today's To Do</h3>
-        <i class="bi bi-arrow-repeat"></i>
+        <h3>Today's To Do <span class="refresh"></span></h3>
         </div>
         <hr>
         <form action="" id="todo-input">
-            <input class="input" type="text" max="255" min="5" required placeholder="Add your list...">
-            <small class="emptylist"> You cannot save an empyt todo </small>
-            <i class="material-icons">&#xe31b</i>
+            <input class="save-todo" type="text" max="255" min="5" required placeholder="Add your list...">
+            <small class="emptylist"> You cannot save an empty todo </small>
 
         </form>
         <hr>
         <ul class="list" id="list">
 
         </ul>
-        <button type="submit" class="btn-clear-all">Clear all completed</button>
+        <button type="submit" class="btn-clear-all" id="clear-complete">Clear all completed</button>
     </main>
     <script src="./index.js"></script>
 </body>

@@ -1,7 +1,8 @@
 class TodoList {
-  constructor(description, completed = false, index = 0) {
+  constructor(description, completed = false, index) {
     this.description = description;
     this.completed = completed;
     this.index = index;
   }
 }
+export default TodoList;

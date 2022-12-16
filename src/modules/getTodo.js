@@ -6,7 +6,7 @@
 
 const getTodo = () => {
   let todo;
-  if (localStorage.getItem('todo' === null)) {
+  if (localStorage.getItem('todo') === null) {
     todo = [];
   } else {
     todo = JSON.parse(localStorage.getItem('todo'));
