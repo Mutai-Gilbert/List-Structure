@@ -64,7 +64,7 @@ input {
   font-weight: 400;
 }
 
-.clear {
+#clear-complete {
   background-color: rgb(230, 224, 224);
   padding: 5px;
   text-align: center;

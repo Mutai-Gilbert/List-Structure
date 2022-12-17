@@ -1,7 +1,7 @@
 import getTodo from './getTodo.js';
 
 const clearComplete = () => {
-  const clearButton = document.querySelector('clear-complete');
+  const clearButton = document.getElementById('clear-complete');
   clearButton.addEventListener('click', () => {
     const todos = getTodo().todo;
     const newlist = todos.filter((item) => item.completed !== true);
