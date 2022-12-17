@@ -18,7 +18,7 @@ const showEditTools = () => {
       const inputDiv = parentdiv.children[1];
       // enable the editing of the input element
       inputDiv.removeAttribute('readonly');
-      const end = inputDiv.ariaValueMax.length;
+      const end = inputDiv.value.length;
       inputDiv.setSelectionRange(end, end);
       inputDiv.focus();
       // call the editTodo function to handle updating the to-do task

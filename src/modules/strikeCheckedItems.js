@@ -12,7 +12,7 @@ const selectedTasks = () => {
       // get the ID of the checkbox
       const checkboxId = e.target.id.replace('checkbox-', '');
       // convert the checkbox ID to a number
-      const checkboxIdInt = parseInt.apply(checkboxId, 10);
+      const checkboxIdInt = parseInt(checkboxId, 10);
       // if the box is checked
       const parentdiv = box.parentElement;
       // get paragraph that contains task name

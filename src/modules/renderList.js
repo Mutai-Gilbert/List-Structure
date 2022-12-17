@@ -6,7 +6,7 @@ import trash from '../images/trash-24.png';
 
 const renderAddedList = (addedList) => {
   const list = addedList;
-  const listContainer = document.querySelector('.todo-form');
+  const listContainer = document.querySelector('.todo-list');
   const isCompleted = list.completed === true ? 'checked' : '';
   const completed = list.completed === true ? '-done' : '';
   listContainer.innerHTML += `

@@ -2,7 +2,7 @@ import getTodo from './getTodo.js';
 
 const editToDo = (inputDiv) => {
   const input = inputDiv;
-  const readOnly = input.parentElement.children[1];
+  const setReadOnly = input.parentElement.children[1];
 
   input.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
@@ -20,7 +20,7 @@ const editToDo = (inputDiv) => {
 
         localStorage.setItem('todo', JSON.stringify(newList));
         window.location.reload();
-        readOnly.setAttribute('readonly', 'true');
+        setReadOnly.setAttribute('readonly', 'true');
       } else {
         document.querySelector('.emptylist').style.display = 'block';
       }

@@ -7,7 +7,8 @@ import renderAddedList from './renderList.js';
 // When the function is called,it adds an event listener to the input element with the class input.
 // When the user presses the Enter key while the input element is focused, the event listener is
 // triggered.
-const addToBtn = () => {
+
+const addTodoBtn = () => {
   const input = document.querySelector('.save-todo');
   input.addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
@@ -20,6 +21,7 @@ const addToBtn = () => {
         const todoList = new TodoList(description, completed, index);
         setTodo(todoList);
         renderAddedList(todoList);
+        // window.location.reload();
         document.querySelector('.save-todo').value = '';
       } else {
         document.querySelector('.emptylist').style.display = 'block';
@@ -27,5 +29,4 @@ const addToBtn = () => {
     }
   });
 };
-
-export default addToBtn;
+export default addTodoBtn;
