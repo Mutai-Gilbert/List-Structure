@@ -2,7 +2,7 @@ import getTodo from './getTodo.js';
 
 const selectedTasks = () => {
   // get the list of to-do items from local storage
-  const todos = getTodo().todo;
+  const { todo } = getTodo();
   // get all checkbox elements
   const checkboxes = document.querySelectorAll('input[name=checkbox]');
   // attach a change event listener to each checkbox
@@ -22,7 +22,7 @@ const selectedTasks = () => {
         // get the paragraph containing the task name
         checkboxTask.classList.add('checked');
         // update the items in the todo-list
-        const newar = todos.map((obj) => {
+        const newar = todo.map((obj) => {
           if (checkboxIdInt === obj.index) {
             return { ...obj, completed: true };
           }
@@ -32,7 +32,7 @@ const selectedTasks = () => {
         window.location.reload();
       } else {
         checkboxTask.classList.remove('checked');
-        const newarray = todos.map((item) => {
+        const newarray = todo.map((item) => {
           if (checkboxIdInt === item.index) {
             return { ...item, completed: false };
           }
