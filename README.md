@@ -70,7 +70,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > ## Our project demo picture
-> <img align="center" src="Project.png" alt="logo" width="100%"  height="auto" />
+> <img align="center" src="todolist.png" alt="logo" width="100%"  height="auto" />
   <br/>
 
 - [Live Demo Link](https://mutai-gilbert.github.io/List-Structure/dist)
