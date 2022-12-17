@@ -4,32 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
-    <link rel="stylesheet" href="style.css" />
-    <title>To-Do-List</title>
+    <title>Todo List</title>
 </head>
 <body>
-    <main class="todo-form">
-        <div class="title">
-        <h3>Today's To Do</h3>
-        <i class="bi bi-arrow-repeat"></i>
+   <section class="todolist">
+    <div class="list-container">
+        <h2 class="heading">Today's Todo  <span class="refresh"></span></h2>
+        <div class="list-group">
+            <input type="text" class="save-todo" id="enter-todo" placeholder="Add to your list...">
+            <small class="emptylist">You can not save an empty todo</small>
         </div>
-        <hr>
-        <form action="" id="todo-input">
-            <input class="input" type="text" max="255" min="5" required placeholder="Add your list...">
-            <i class="material-icons">&#xe31b</i>
+        <div class="todo-list">
 
-        </form>
-        <hr>
-        <ul class="list" id="list">
-
-        </ul>
-        <button type="submit" class="btn-clear-all">Clear all completed</button>
-    </main>
-    <script src="./index.js"></script>
+        </div>
+        <div id="clear-complete">
+            <p>Clear All completed</p>
+        </div>   
+    </div>
+   </section>
 </body>
 </html>
