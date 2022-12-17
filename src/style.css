@@ -5,7 +5,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
 .save-todo {
   width: 93%;
   padding-left: 5px;
@@ -25,7 +24,6 @@
   float: right;
   display: none;
 }
-
 
 .refresh {
   float: right;
