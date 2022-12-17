@@ -73,7 +73,7 @@
 > <img align="center" src="Project.png" alt="logo" width="100%"  height="auto" />
   <br/>
 
-- [Live Demo Link](https://mutai-gilbert.github.io/List-Structure/)
+- [Live Demo Link](https://mutai-gilbert.github.io/List-Structure/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
