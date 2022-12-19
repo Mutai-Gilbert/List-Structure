@@ -21,8 +21,6 @@ const displayLists = () => {
   todos.forEach((item) => { renderAddedList(item); });
 };
 displayLists();
-
-// Add refresh icon to the page and set up the refresh event listener
 const imageRefresh = () => {
   const element = document.querySelector('.refresh');
 
