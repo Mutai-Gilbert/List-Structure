@@ -5,17 +5,42 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.todolist {
+  display: flex;
+  padding: 12px;
+  width: 98%;
+  margin: 24px 24px;
+  background-color: bisque;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
 .save-todo {
-  width: 93%;
   padding-left: 5px;
 }
 
+.heading,
+.list-group,
+.clear-complete {
+  width: 98%;
+}
+
+.list-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin: 12px;
+  gap: 5px;
+}
+
 .checkbox-task {
-  width: 93%;
   padding-left: 5px;
 }
 .list-container {
   display: flex;
+  width: 98%;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -40,4 +65,15 @@
 
 .emptylist {
   display: none;
+}
+
+.clear-complete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 12px 12px;
+  width: 50%;
 }
