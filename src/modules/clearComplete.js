@@ -1,8 +1,5 @@
 import getTodo from './getTodo.js';
 
-// This function sets up an event listener for the 'Clear completed' button.
-// When clicked, it removes all completed to-do items from the list and
-// updates the list in local storage.
 const clearComplete = () => {
   // Get the 'Clear completed' button
   const clearButton = document.getElementById('clear-complete');
@@ -12,10 +9,14 @@ const clearComplete = () => {
     const { todo: todos } = getTodo();
     // Filter out the completed to-do items
     const newlist = todos.filter((item) => item.completed !== true);
+    newlist.forEach((task, i) => {
+      task.index = i;
+    });
     // Update the list in local storage
     localStorage.setItem('todo', JSON.stringify(newlist));
     // Reload the page to reflect the updated list
     window.location.reload();
   });
 };
+
 export default clearComplete;
